@@ -347,7 +347,7 @@ function createArray(size) {
   //function used to create an array of random numbers of a given size
   let numberList = [];
   for (let i = 0; i < size; i++) {
-    let value = Math.floor(Math.random() * (window.screen.height * 0.55));
+    let value = Math.floor(Math.random() * (window.screen.height * 0.5));
     while (value === 0) {
       //if value is 0, keep generating numbers until not 0
       value = Math.floor(Math.random() * 50);
